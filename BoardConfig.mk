@@ -143,6 +143,9 @@ BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 
 include device/qcom/sepolicy/SEPolicy.mk
 
+# USB
+TARGET_QTI_USB_SUPPORTS_AUDIO_ACCESSORY := true
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
