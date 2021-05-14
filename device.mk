@@ -66,6 +66,11 @@ PRODUCT_PACKAGES += \
     FM2 \
     qcom.fmradio
 
+# Healthd
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.0-impl \
+    android.hardware.health@2.0-service
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
