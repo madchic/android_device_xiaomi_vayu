@@ -175,6 +175,10 @@ PRODUCT_PACKAGES += \
     DevicesOverlay \
     DevicesAndroidOverlay
 
+# Recorder
+PRODUCT_PACKAGES += \
+    Recorder
+
 # WiFi
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
