@@ -51,7 +51,7 @@ TARGET_EXCLUDES_AUDIOFX := true
 
 # Camera
 PRODUCT_PACKAGES += \
-    GCamGOPrebuilt
+    GoogleCameraGo
 
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
