@@ -145,7 +145,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.vayu \
-    android.hardware.power.stats@1.0-service.mock \
+    android.hardware.power.stats@1.0-service.mock
 
 # Releasetool scripts
 PRODUCT_COPY_FILES += \
