@@ -140,10 +140,6 @@ system_ext/framework/qcrilhook.jar
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
 
-# System
-system_ext/lib/libqdMetaData.so
-system_ext/lib64/libqdMetaData.so
-
 # WiFi Display
 -framework/WfdCommon.jar
 system_ext/bin/sigma_miracasthalservice
