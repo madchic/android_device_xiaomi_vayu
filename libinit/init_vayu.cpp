@@ -131,19 +131,19 @@ void vendor_load_properties() {
         set_device_props(
             fp,
             fp_desc,
-            "POCO", "bhima", "M2102J20SI");
+            "POCO", "bhima", "Poco X3 Pro - M2102J20SI");
         property_override("ro.product.mod_device", "bhima_global");
     } else if (region == "GLOBAL") {
         set_device_props(
             fp,
             fp_desc,
-            "POCO", "vayu", "M2102J20SG");
+            "POCO", "vayu", "Poco X3 Pro - M2102J20SG");
         property_override("ro.product.mod_device", "vayu_global");
     } else {
         set_device_props(
             fp,
             fp_desc,
-            "POCO", "vayu", "M2102J20SG");
+            "POCO", "vayu", "Poco X3 Pro - M2102J20SG");
         property_override("ro.product.mod_device", "vayu_global");
     }
 
