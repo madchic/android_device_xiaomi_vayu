@@ -54,7 +54,7 @@ TARGET_EXCLUDES_AUDIOFX := true
 
 # Camera
 PRODUCT_PACKAGES += \
-    GCamGOPrebuilt
+    GoogleCameraGo
 
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
@@ -74,8 +74,8 @@ PRODUCT_PACKAGES += \
 
 # Healthd
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.0-impl \
-    android.hardware.health@2.0-service
+    android.hardware.health@2.1-service \
+    android.hardware.health@2.1-impl \
 
 # HIDL
 PRODUCT_PACKAGES += \
