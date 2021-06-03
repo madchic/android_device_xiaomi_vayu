@@ -13,6 +13,10 @@ vendor.bluetooth.soc=cherokee
 
 # Display
 ro.sf.lcd_density=440
+ro.surface_flinger.set_display_power_timer_ms=1000
+ro.surface_flinger.set_idle_timer_ms=200
+ro.surface_flinger.set_touch_timer_ms=200
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
 
 # GBoard
 ro.com.google.ime.kb_pad_port_b=1
@@ -22,7 +26,9 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mm.enable.qcom_parser=131071999
 debug.stagefright.ccodec=1
-ro.media.recorder-max-base-layer-fps=60
+
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Netmgr
 persist.vendor.data.iwlan.enable=true
