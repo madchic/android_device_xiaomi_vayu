@@ -143,10 +143,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service.vayu \
     android.hardware.power.stats@1.0-service.mock
 
-# Releasetool scripts
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/bin/device_nfc_check.sh:install/bin/device_nfc_check.sh
-
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
