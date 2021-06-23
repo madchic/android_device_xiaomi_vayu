@@ -29,6 +29,9 @@ debug.stagefright.ccodec=1
 
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_age=5000
+ro.vendor.qti.sys.fw.bservice_limit=8
+ro.vendor.qti.sys.fw.bg_apps_limit=60
 
 # Netmgr
 persist.vendor.data.iwlan.enable=true
