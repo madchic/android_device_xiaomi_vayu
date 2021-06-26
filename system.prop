@@ -17,6 +17,26 @@ ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.set_idle_timer_ms=200
 ro.surface_flinger.set_touch_timer_ms=200
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
+debug.sf.enable_hwc_vds=1
+ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
+ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
+persist.vendor.color.matrix=2
+vendor.display.comp_mask=0
+vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+vendor.display.enable_rotator_ui=1
+
+# HWUI
+ro.hwui.drop_shadow_cache_size=6
+ro.hwui.gradient_cache_size=1
+ro.hwui.layer_cache_size=48
+ro.hwui.path_cache_size=32
+ro.hwui.r_buffer_cache_size=8
+ro.hwui.text_large_cache_height=1024
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_small_cache_height=1024
+ro.hwui.text_small_cache_width=1024
+ro.hwui.texture_cache_flushrate=0.4
+ro.hwui.texture_cache_size=72
 
 # GBoard
 ro.com.google.ime.kb_pad_port_b=1
@@ -26,9 +46,15 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mm.enable.qcom_parser=131071999
 debug.stagefright.ccodec=1
+vendor.swvdec.log.level=1
+vendor.vidc.debug.level=1
+av.offload.enable=true
 
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_age=5000
+ro.vendor.qti.sys.fw.bservice_limit=8
+ro.vendor.qti.sys.fw.bg_apps_limit=60
 
 # Netmgr
 persist.vendor.data.iwlan.enable=true

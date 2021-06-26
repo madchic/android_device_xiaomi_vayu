@@ -23,13 +23,27 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Dex2oat
 PRODUCT_PRODUCT_PROPERTIES += \
-     dalvik.vm.dex2oat64.enabled=true
+    dalvik.vm.dex2oat64.enabled=true
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.disable_backpressure=1 \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
-    vendor.display.disable_rotator_downscale=1
+    vendor.display.disable_rotator_downscale=1 \
+    debug.egl.hw=0 \
+    debug.mdpcomp.logs=0 \
+    debug.sf.hw=0 \
+    debug.sf.latch_unsignaled=1 \
+    persist.demo.hdmirotationlock=false \
+    persist.sys.sf.color_mode=0 \
+    persist.sys.sf.color_saturation=1.0 \
+    ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.msmnile.api30 \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=adreno \
+    ro.opengles.version=196610 \
+    vendor.display.enable_default_color_mode=1 \
+    vendor.gralloc.disable_ubwc=0 \
+    ro.vendor.scroll.preobtain.enable=false
 
 # LMKD
 PRODUCT_PRODUCT_PROPERTIES += \
