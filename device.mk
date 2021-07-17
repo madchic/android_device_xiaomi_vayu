@@ -37,6 +37,9 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
@@ -168,7 +171,7 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.vayu \
-    android.hardware.power.stats@1.0-service.mock
+    android.hardware.power.stats@1.0-service
 
 # Sensors
 PRODUCT_PACKAGES += \
